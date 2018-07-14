@@ -1,0 +1,11 @@
+domains
+person,activity=symbol
+predicates
+likes(person,activity)
+clauses
+likes(ellen,tennis).
+likes(john,football).
+likes(tom,baseball).
+likes(eve,swimming).
+likes(mark,tennis).
+likes(bill,X):-likes(tom,X).

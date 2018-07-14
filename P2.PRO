@@ -1,0 +1,10 @@
+domains
+brand,color=symbol
+age,price=integer
+mileage=real
+predicates
+car(brand,mileage,age,color,price)
+clauses
+car(cheyster,130000,3,red,12000).
+car(ford,30000,4,grey,25000).
+car(datson,8000,1,red,30000).

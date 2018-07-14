@@ -1,0 +1,9 @@
+domains
+	integerlist=integer*
+	Symbollist=Symbol*
+predicates
+	member(Symbol,Symbollist)
+	member(integer,integerlist)
+clauses
+	member(X,[X|_]).
+	member(X,[_|Tail]):-member(X,Tail).
